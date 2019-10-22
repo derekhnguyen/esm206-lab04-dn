@@ -23,6 +23,8 @@ library(DT)
 
 ### A. interactice graph of iris dimensions
 
+
+
 Using Edgar Anderson's famous 'iris' dataset. 'echo = FALSE' --> does not include code
 ```{r, echo = FALSE}
 
@@ -38,5 +40,11 @@ iris_graph <- ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) +
 iris_graph
 
 ggplotly(iris_graph)
+```
+
+### Make an interactice table with DT
+
+```{r}
+datatable(msleep) 
 ```
 
