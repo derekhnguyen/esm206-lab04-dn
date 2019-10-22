@@ -1,1 +1,8 @@
-# esm206-lab04-dn
+# AWESOME! README
+
+- hit 
+- the
+- WEDGE!!
+
+
+*DOPE*
